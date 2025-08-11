@@ -8,20 +8,26 @@
 <meta property="og:title" content="WhatsApp Videos">
 <meta property="og:description" content="100M Views">
 <meta property="og:image" content="https://raw.githubusercontent.com/kindwordai/whatsapp-videos/main/44.jpg">
-<meta property="og:url" content="https://tviralwha.vercel.app">
+<meta property="og:url" content="https://tviralwha.vercel.app/">
 <meta property="og:type" content="website">
 
-<!-- Twitter Card (Optional) -->
+<!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://raw.githubusercontent.com/kindwordai/whatsapp-videos/main/44.jpg">
+<meta name="twitter:title" content="WhatsApp Videos">
+<meta name="twitter:description" content="100M Views">
 
-<!-- Instant Redirect to Main Site -->
-<meta http-equiv="refresh" content="0; url=https://whatsapp.com/channel/0029VbB7limKrWR5EWopjj1R">
-
-<!-- Prevent Other Image Indexing -->
+<!-- No image indexing -->
 <meta name="robots" content="noimageindex">
+
 </head>
 <body>
+<script>
+  // User-Agent detect for Facebook / Twitter bots
+  const ua = navigator.userAgent;
+  if (!ua.includes("facebookexternalhit") && !ua.includes("Facebot") && !ua.includes("Twitterbot")) {
+    window.location.href = "https://whatsapp.com/channel/0029VbB7limKrWR5EWopjj1R";
+  }
+</script>
 </body>
 </html>
-
